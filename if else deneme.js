@@ -20,12 +20,28 @@ let litr = Number(prompt("nece litr olsun ?"));
 let account = Number(prompt("Kart hesabınızı girin !"));
 
 
-if(card = 4169){
+if(account == 4169){
+    let  odenecekmebleg = benzin*litr;
     let yancagnovu = prompt("Yancag novlerimiz" + nextLine
     + "1-Benzin" + nextLine
     + "2-Dizel" + nextLine
     + "Tok" + nextLine
     + "Hansinnan istiyirsiz ?");
+
+    if(yancagnovu == "1"){alert("Odediyiniz mebleg :" +  odenecekmebleg + nextLine
+    + "Cari balansiniz :" + (balans - odenecekmebleg));}
+
+    else if (yancagnovu == "2"){
+        let  odenecekmebleg = dizel*litr;
+        alert("Odediyiniz mebleg :" +  odenecekmebleg + nextLine
+    + "Cari balansiniz :" + (balans - odenecekmebleg));}
+
+    else if (yancagnovu == "3"){
+        let odenecekmebleg = tok*litr;
+        alert("Odediyiniz mebleg :" + odenecekmebleg + nextLine
+        + "Cari balansiniz :" + (balans-odenecekmebleg));
+
+    }
 
 }
 
