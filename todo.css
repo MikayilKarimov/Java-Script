@@ -1,0 +1,45 @@
+#container {
+    border: 1px solid black;
+    height: 800px;
+}
+.header{
+    padding-top: 15px;
+}
+.button-text{
+    border-radius: 10px;
+    background-color: dodgerblue;
+border: 1px solid dodgerblue;
+color: white;
+margin-top: 30px;
+}
+
+.inputFirst , .inputSecond{
+    padding-top: 5px;
+    padding-right: 900px;
+}
+
+#footer{
+   margin-top: 50px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#footer h6{
+   margin-top: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.endButon{
+    border-radius: 10px;
+    background-color: dodgerblue;
+border: 1px solid dodgerblue;
+color: white;
+margin-top: 25px;
+}
+
+#footer i {
+float: right;
+color: red;
+padding-right: 10px;
+}
