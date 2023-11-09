@@ -37,7 +37,9 @@ border: 1px solid dodgerblue;
 color: white;
 margin-top: 25px;
 }
-
+i{
+    cursor: pointer;
+}
 #footer i {
 float: right;
 color: red;

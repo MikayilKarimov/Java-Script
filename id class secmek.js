@@ -19,3 +19,4 @@
 // let sonuc = document.links.item(0).classList[1];
 // console.log(sonuc);
 
+
