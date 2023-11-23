@@ -1,6 +1,6 @@
 #container {
     border: 1px solid black;
-    height: 800px;
+    height: auto;
 }
 .header{
     padding-top: 15px;
@@ -20,7 +20,8 @@ margin-top: 30px;
 
 #footer{
    margin-top: 50px;
-    height: 315px;
+   height: auto; 
+   /* height: 315px; */
     border: 1px solid black;
     border-radius: 5px;
 }
